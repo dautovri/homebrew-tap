@@ -1,6 +1,6 @@
 cask "bigexport" do
   version "1.0.1"
-  sha256 "2fcae689ac13dccf8c9f3dc9658586bbd858acea5e5af7a4a1d1dc4b4851c875"
+  sha256 "5562fc61b3edc51f5c597d67be8208e747dda1650768518f6c4a9f7131071ae5"
 
   url "https://github.com/dautovri/gotoapplemaps-bigexport/releases/download/v#{version}/BigExport-#{version}.dmg"
   name "BigExport"
