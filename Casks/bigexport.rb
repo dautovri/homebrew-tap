@@ -1,6 +1,6 @@
 cask "bigexport" do
   version "1.0.0-rc.1"
-  sha256 "3e5bba1ea8f8ce387a98751d18020556f83375ad38b9d7816165c600aa9f1d0d"
+  sha256 "cf8769c057a7072318ea908b37bf11a7d33244f9aa57c3b2c0bf5302f7a7488e"
 
   url "https://github.com/dautovri/gotoapplemaps-bigexport/releases/download/v#{version}/BigExport-#{version}.dmg"
   name "BigExport"
@@ -8,11 +8,6 @@ cask "bigexport" do
   homepage "https://gotoapplemaps.com"
 
   app "BigExport.app"
-
-  caveats <<~EOS
-    This release candidate is signed but not yet notarized.
-    If Gatekeeper blocks the first launch: right-click BigExport.app → Open.
-  EOS
 
   zap trash: [
     "~/Library/Preferences/com.GoToAppleMaps.BigExport.plist",
